@@ -1,0 +1,72 @@
+:root{
+    font-size: 60%;
+
+    --color-background:  linear-gradient(#8755af,#2e297e);
+  --color-primary-lighter: #9871F5;
+  --color-primary-light: #916BEA;
+  --color-primary: #8257E5;
+  --color-primary-dark: #774DD6;
+  --color-primary-darker: #5c3baa;
+  --color-secundary: #33fa8d;
+  --color-secundary-dark: #04BF58;
+  --color-title-in-primary: #FFFFFF;
+  --color-text-in-primary: #D4C2FF;
+  --color-text-title: #32264D;
+  --color-text-complement: #9C98A6;
+  --color-text-base: #6A6180;
+  --color-line-in-white: #E6E6F0;
+  --color-input-background: #F8F8FC;
+  --color-button-text: #FFFFFF;
+  --color-box-base: #FFFFFF;
+  --color-box-footer: #FAFAFC;
+  --color-button-news: #342566;
+  --color-button-lives: #8a2624;
+  --color-button-projects: #065529;
+  --color-button-pages: #4f3b8f;
+  --color-button-pages-lighter: #71639e;
+  --color-background-footer: #716792;
+  --color-menu-header: #a3a3a5;
+  --color-report-item: #e7e5e5;
+  --color-report-item-footer: #dbd9d9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body,#root{
+    height: 100vh;
+}
+
+body{
+    background: var(--color-line-in-white);
+    display: flex;
+    flex-direction: column;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea{
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
+}
+
+.container{
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media(min-width:700px){
+    :root{
+        font-size: 62.5%;
+    }
+}

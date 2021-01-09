@@ -1,0 +1,43 @@
+ .input-block{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-block .iconSearch{
+    margin-left: 2rem;
+}
+
+ .input-block label{
+    font-size: 1.8rem;
+}
+
+ .input-block input{
+    width: 100%;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    background: var(--color-input-background);
+    border: 1px solid var(--color-line-in-white);
+    outline: 0;
+    padding: 0 1.6rem;
+    font: 1.6rem Archivo;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+    -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+    box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+}
+
+
+@media(min-width:700px){
+    
+    .input-block input{
+        width: 50rem;
+        margin-bottom: 4rem;
+    }
+    
+    .input-block .iconSearch{
+        width: 40px;
+    }
+}

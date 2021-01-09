@@ -1,0 +1,195 @@
+#page-menu-content{
+    color: var(--color-text-title);
+    background-image: url('../../assets/images/background.jpg');
+    background-color: #30615f;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.card_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 30rem;
+    height: 25rem;
+
+    background: #306146;
+    padding: 2rem;
+    
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    cursor: pointer;
+
+    transition: 0.5s;    
+}
+
+.card_1:hover{
+    width: 31rem;
+    height: 26rem;
+}
+
+.card_1 img{
+    height: 30rem;
+    width: 32rem;
+    
+    animation-name: fade;
+    animation-duration: 2000ms;
+
+    transition: 0.5s;
+}
+
+.card_1 img:hover{
+    height: 30rem;
+    width: 32rem;
+}
+
+
+.card_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 30rem;
+    height: 25rem;
+
+    background: #325f74;
+    padding: 2rem;
+    
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    cursor: pointer;
+
+    transition: 0.5s;    
+}
+
+.card_2:hover{
+    width: 31rem;
+    height: 26rem;
+}
+
+.card_2 img{
+    height: 30rem;
+    width: 32rem;
+    
+    animation-name: fade;
+    animation-duration: 2000ms;
+
+    transition: 0.8s;
+
+}
+
+.card_2 img:hover{
+    height: 30rem;
+    width: 32rem;
+}
+
+
+.card_3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 30rem;
+    height: 25rem;
+
+    background: #b9a04d;
+    padding: 2rem;
+    
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    cursor: pointer;
+
+    transition: 0.5s;    
+}
+
+.card_3:hover{
+    width: 31rem;
+    height: 26rem;
+}
+
+.card_3 img{
+    height: 30rem;
+    width: 32rem;
+    animation-name: fade;
+    animation-duration: 2000ms;
+
+    transition: 0.5s;
+}
+
+.card_3 img:hover{
+    height: 30rem;
+    width: 32rem;
+}
+
+.card_4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 30rem;
+    height: 25rem;
+    
+    background: #e2dae7;
+    padding: 2rem;
+    
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    cursor: pointer;
+
+    transition: 0.5s;    
+}
+
+.card_4:hover{
+    width: 31rem;
+    height: 26rem;
+}
+
+.card_4 img{
+    height: 30rem;
+    width: 32rem;
+    
+    animation-name: fade;
+    animation-duration: 2000ms;
+
+    transition: 0.5s;
+}
+
+.card_4 img:hover{
+    height: 30rem;
+    width: 32rem;
+}
+
+
+@keyframes fade {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+

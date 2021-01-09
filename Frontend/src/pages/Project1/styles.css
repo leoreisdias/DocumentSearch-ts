@@ -1,0 +1,198 @@
+    #page-landing{
+        width: 100vw;
+        height: 100vh;
+        color: var(--color-text-title);
+      
+    }
+
+    #page-landing-content{
+        background-image: url('../../assets/images/background.jpg');
+        background-size: 100%;
+        background-color: #30615f;
+        background-repeat: repeat-y;
+
+        max-width: 100%;
+        width: 100%;
+
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3.2rem;
+        align-self: center;
+        text-align: initial;
+        margin: 0;
+    }
+
+    /* .formInput{
+        position: relative;
+        margin: 0 auto;
+    } */
+
+/* 
+    .logo-container h2{
+        text-align: initial;
+        font-size: 4.0rem;
+    } */
+
+    .logo-container img{
+        height: 20rem;
+        width: 22rem;
+        margin-bottom: 1rem;    
+        
+        animation-name: fade;
+        animation-duration: 2000ms;
+    }
+
+    .btnCadastrar{
+        border: none;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        color: black;
+        border-radius: 10px;
+
+        transition: 0.5s;
+    }
+
+    .btnCadastrar:hover{
+        opacity: 0.7;
+    }
+
+    .searchResults{
+        width: 800px;
+        margin: 0 auto;
+        display: flow;
+        
+    }
+
+    .secPacman{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secFunction{
+        background: gray;
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        animation-name: fade;
+        animation-duration: 3000ms;
+    }
+
+    @keyframes fade {
+        from {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+    .functionName{
+        background-color: ghostwhite;
+        width: 500px;
+        padding: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .functionName strong{
+        font-weight: bold;
+        color: black;
+    }
+
+
+    .AccordionContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .editDeleteOptions{
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       margin-bottom: 0;
+       margin-top: 0;
+       padding: 0;
+       height: 2px;
+    }
+
+    .iconDelete{
+        border-radius: 10px;
+        padding: 0.5rem;
+        background-color: rgb(0, 38, 63);
+        cursor: pointer;
+    }
+
+    .iconDelete:hover{
+        background-color: rgb(5, 68, 109);
+    }
+
+    .iconEdit{
+        border-radius: 10px;
+        padding: 0.5rem;
+        background-color: royalblue;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+
+    .iconEdit:hover{
+        background-color: rgb(53, 85, 180);
+    }
+    
+    .functionPurpose{
+        margin-top: 2rem;
+        background: rgb(247, 217, 232);
+        max-width: 750px;
+        width: 750px;
+        padding: 0.8rem;
+        border-radius: 10px;
+        word-wrap: break-word;
+
+    }
+    
+    .functionParameters{
+        background: rgb(243, 250, 233);
+        width: 100%;
+        padding: 0.8rem;
+        border-radius: 10px;
+        word-wrap: break-word;
+    }
+
+    .functionDesc{
+        background: rgb(197, 234, 247);
+        width: 100%;
+        padding: 0.8rem;
+        margin-top: 2rem;
+        border-radius: 10px;
+        word-wrap: break-word;
+    }
+
+    .inputOutputLegend{
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .functionOutput{
+        background: lightgoldenrodyellow;
+        width: 100%;
+        padding: 0.8rem;
+        border-radius: 10px;
+        word-wrap: break-word;
+
+    }

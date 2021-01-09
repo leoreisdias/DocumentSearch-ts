@@ -1,0 +1,79 @@
+.post-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.2rem;
+    align-self: center;
+    text-align: initial;
+    margin: 0;
+}
+
+.post-container img{
+    height: 20rem;
+    width: 22rem;
+    margin-bottom: 1rem;    
+    
+    animation-name: fade;
+    animation-duration: 2000ms;
+}
+
+.formPost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.group_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+}
+
+.group_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.group_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.group_4{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.btnSubmit{
+    background-color: #306146;
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    color: white;
+
+    transition: 0.5s;
+}
+
+.btnSubmit:hover{
+    opacity: 0.8;
+}
